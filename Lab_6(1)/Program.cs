@@ -20,10 +20,16 @@ namespace Lab_6_1_
             der.SetVariable(3);
             der.Calculate();
 
-            HyperbolicSinus h1 = new HyperbolicSinus(2);
+            HyperbolicSinus h1 = new HyperbolicSinus();
             h1.Calculate();
-            h1.SetVariable(3);
+            h1.SetVariable(0.5);
             h1.Calculate();
+            Console.WriteLine("\n");
+
+            HyperbolicCosine h2 = new HyperbolicCosine();
+            h2.Calculate();
+            h2.SetVariable(0.5);
+            h2.Calculate();
             Console.WriteLine("\n");
             Console.ReadKey();
         }
