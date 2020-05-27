@@ -22,7 +22,7 @@ namespace Lab_6_1_
         }
         public ExponentialFunction(double a)
         {
-            this.Input(a);
+            this.Input(a, 1);
         }
         public ExponentialFunction(double a, double b)
         {
@@ -34,17 +34,6 @@ namespace Lab_6_1_
             {
                 this.a = a;
                 this.b = b;
-            }
-            else
-            {
-                Console.WriteLine("Wrong input!");
-            }
-        }
-        private void Input(double a)
-        {
-            if (a > 0 && a != 1)
-            {
-                this.a = a;
             }
             else
             {

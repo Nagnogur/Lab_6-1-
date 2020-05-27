@@ -10,7 +10,7 @@ namespace Lab_6_1_
     {
         static void Main(string[] args)
         {
-            ExponentialFunction exp1 = new ExponentialFunction(Math.E);
+            ExponentialFunction exp1 = new ExponentialFunction(Math.E, 3);
             exp1.Calculate();
             exp1.SetVariable(3);
             exp1.Calculate();
@@ -19,6 +19,12 @@ namespace Lab_6_1_
             der.Calculate();
             der.SetVariable(3);
             der.Calculate();
+
+            HyperbolicSinus h1 = new HyperbolicSinus(2);
+            h1.Calculate();
+            h1.SetVariable(3);
+            h1.Calculate();
+            Console.WriteLine("\n");
             Console.ReadKey();
         }
     }
