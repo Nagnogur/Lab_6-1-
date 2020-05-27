@@ -26,7 +26,7 @@ namespace Lab_6_1_
             h1.Calculate();
             Console.WriteLine("\n");
 
-            HyperbolicCosine h2 = new HyperbolicCosine();
+            HyperbolicCosine h2 = new HyperbolicCosine(4);
             h2.Calculate();
             h2.SetVariable(0.5);
             h2.Calculate();
@@ -36,6 +36,12 @@ namespace Lab_6_1_
             d1.Calculate();
             d1.SetVariable(1);
             d1.Calculate();
+            Console.WriteLine("\n");
+
+            DerivativeHyperbolicCosine d2 = new DerivativeHyperbolicCosine(h2);
+            d2.Calculate();
+            d2.SetVariable(5);
+            d2.Calculate();
             Console.WriteLine("\n");
             Console.ReadKey();
         }

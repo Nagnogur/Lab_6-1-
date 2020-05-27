@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DerivativeEponentialFunction.cs" />
+    <Compile Include="DerivativeHyperbolicCosine.cs" />
     <Compile Include="DerivativeHyperbolicSinus.cs" />
     <Compile Include="ExponentialFunction.cs" />
     <Compile Include="HyperbolicCosine.cs" />
