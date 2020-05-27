@@ -31,6 +31,12 @@ namespace Lab_6_1_
             h2.SetVariable(0.5);
             h2.Calculate();
             Console.WriteLine("\n");
+
+            DerivativeHyperbolicSinus d1 = new DerivativeHyperbolicSinus(h1);
+            d1.Calculate();
+            d1.SetVariable(1);
+            d1.Calculate();
+            Console.WriteLine("\n");
             Console.ReadKey();
         }
     }

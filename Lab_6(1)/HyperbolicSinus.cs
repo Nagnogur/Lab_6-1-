@@ -13,6 +13,7 @@ namespace Lab_6_1_
         public double A
         {
             get { return a; }
+            set { this.a = value; }
         }
         public HyperbolicSinus()
         {
